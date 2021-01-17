@@ -2,11 +2,11 @@ package Cars;
 
 import java.util.Objects;
 
-public abstract class  Car {
+public class Car {
     //Не забываем делать ветки!!!!!
     //Делаем только комиты, пушим вечером!!!
 
-     protected String car;
+    protected String car;
 
     protected Car(String car) {
         this.car = car;
